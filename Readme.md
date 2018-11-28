@@ -1,5 +1,7 @@
 # Number game
 
+![snapshot](docs/snap.png)
+
 No particular reason for the color choice, just kept it simple and as minimal as possible.
 
 The number wheel I felt was a better choice than showing a hundred numbers on a screen and easier to navigate. It might be more interesting to show all numbers on a screen at once however and I would imagine you could have them animate & pop.
