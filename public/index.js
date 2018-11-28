@@ -13,11 +13,6 @@ document.querySelector('body').appendChild(generateList(100))
 
 function score(game) {
   state = state.slice(0,9).concat(game)
-  if(game.result === 'win') {
-
-  } else {
-
-  }
 
   const elements = state.map(game => {
     const css = game.result === 'won' ? 'class="win"' : ''
