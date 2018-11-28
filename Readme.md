@@ -1,4 +1,4 @@
-#Number game
+# Number game
 
 No particular reason for the color choice, just kept it simple and as minimal as possible.
 
