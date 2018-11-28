@@ -29,7 +29,7 @@ function score(game) {
 }
 
 function playGame(e) {
-  console.log(e.target.tagName)
+
   if(e.target.tagName !== 'LI') return;
   const elm = e.target
   const url = '/api/game'
