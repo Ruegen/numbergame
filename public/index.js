@@ -48,6 +48,7 @@ function playGame(e) {
     })
     .then(response => response.json())
     .then(score)
+    .catch(err => console.error(err))
   
   elm.classList.add('flash')
   
