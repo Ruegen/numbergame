@@ -10,6 +10,8 @@ app.post('/api/game', (req, res) => {
         (Math.random() * 100)
     ).toString()
 
+    // this could be made into middleware
+    // the middleware could be tested
     if(randomNumber > req.body.number) {
         res.status(200).json({
             choice: req.body.number,
@@ -28,3 +30,5 @@ app.post('/api/game', (req, res) => {
 app.listen(3000, () => {
     console.info('listening on port 3000')
 })
+
+module.exports = app
